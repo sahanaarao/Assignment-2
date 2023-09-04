@@ -1,0 +1,8 @@
+def area(side):
+  return side * side
+
+side = int(input("Enter the side length of the square: "))
+
+square_area = area(side)
+
+print("The area of the square with side", side, "is", square_area)
